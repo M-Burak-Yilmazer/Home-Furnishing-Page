@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #efefef;
+    font-family: 'Times New Roman', Times, serif;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    
+
+}
+.container{
+    background-color:#eeecec;
+
+    margin:50px 152px 50px 152px ;
+    box-shadow: rgb(0,0,0) 2px 2px 50px 0px;
+    border: 10px solid red;
+    border-radius:1.5rem;
+
+}
