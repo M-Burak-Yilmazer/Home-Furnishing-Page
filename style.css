@@ -7,13 +7,15 @@
 
 body {
   background-color: #efefef;
-  font-family: "Times New Roman", Times, serif;
-  background-position: 50% 50%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .container {
   background-color: #eeecec;
-  margin: 50px 150px;
+  width:80%;
+
+  margin: 50px auto;
   box-shadow: rgb(0, 0, 0) 2px 2px 50px 0px;
   font-family: "Judson", serif;
   border-radius: 1.5rem;
@@ -160,16 +162,16 @@ header {
   margin: 20px 0 0 0;
   padding: 32px 80px;
   display: flex;
- flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
-  gap:1rem;
+  gap: 1rem;
 }
 header .essential {
   background-color: #d5dee5;
   width: 800px;
   height: 300px;
   display: flex;
-  align-items:center;  
+  align-items: center;
   border-radius: 5px;
   box-shadow: 5px 5px 10px black;
 }
@@ -189,17 +191,59 @@ header .essential {
   border-radius: 5px;
   box-shadow: 5px 5px 10px black;
 }
-.lightning p{
-    float:right;
-    /* width:80%; */
-    padding:2rem;
-    direction: rtl;
-    line-height:1.3;
-    font-style:italic;
-    margin-bottom:-200px;
-
+.lightning p {
+  float: right;
+  /* width:80%; */
+  padding: 2rem;
+  direction: rtl;
+  line-height: 1.3;
+  font-style: italic;
+  margin-bottom: -200px;
 }
 .lightning img {
   width: 100%;
   height: 300px;
+}
+.category-part {
+  background-color: #aea08d;
+  padding: 2rem;
+}
+.browse-category{
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  /* font-family: 'Josefin Slab', serif; */
+}
+.categories {
+ display:flex;
+ flex-wrap:wrap;
+ justify-content: center;
+ align-items:center;    
+}
+.part{
+    width:350px;
+    height:350px;
+    background-color: rgba(238,236,236,0.86);
+    box-shadow:2px 2px 50px black;
+    border-radius:10px;
+    margin:1rem;
+    padding:1rem 2px 1rem 1rem;
+}
+.part p{
+    font-size:1rem;
+    font-family: 'Josefin Slab', serif;
+
+
+}
+.part img{
+    width:100%;
+    height:100%;
+    padding:16px 10px 16px 16px;
+    border-radius:2rem;
+    border:10px;
+    position:relative;
+    top:0;
+    
+    overflow-clip-margin: content-box;
+    overflow:clip;
 }
